@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1 style="text-align: center;"> Открой консоль! </h1>
+<script>
+    // Преобразование типов
+    console.log("" + 1 + 0);  // string + '10'
+    console.log("" - 1 + 0) ;// -1 number +
+    console.log(true + false); // 1 Boolean -  (true 1 false 0 => 1+0 =1)
+    console.log(6 / "3"); //  2 number +
+    console.log("2" * "3"); //  6 number +
+    console.log(4 + 5 + "px"); // "9px" string +
+    console.log(typeof("$" + 4 + 5 ), "$" + 4 + 5 ); // "$45" string +
+    console.log("4" - 2); // 2 number +
+    console.log("4px" - 2); // 	NaN +
+    console.log(7 / 0); // infinity +
+    console.log("  -9  " + 5); // "-95" string +
+    console.log("  -9  " - 5); //  -14 number +
+    console.log(null + 1); // 1 number +
+    console.log(undefined + 1); // nan +
+    console.log(" \t \n" - 2); // -2 number +
+</script>
+</body>
+</html>
